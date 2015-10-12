@@ -4,8 +4,9 @@ This is a really quick and dirty enrollment applet I made.
 It gets a user's details, and sends them off to a configurable google form.
 
 Probably not suitable for anything that needs to be super secure, but for grabbing details from a whole bunch of
-developers for stuff like google account details, bitbucket logins, wordpress account creation or anything low risk,
-this might save some time.
+developers for stuff like google account details, bitbucket logins, wordpress account creation or anything low risk, this might save some time.
+
+### At this stage, this applet is feature complete. If you spot anything that you feel can be done better, feel free to let me know or submit a pull request.
 
 Distributed under the MIT Licence:
 
