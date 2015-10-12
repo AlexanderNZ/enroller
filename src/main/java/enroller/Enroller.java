@@ -110,7 +110,7 @@ public class Enroller extends JPanel {
             devEmailString = devEmail.getText();
             devPhoneNumberString = devPhoneNumber.getText();
             devPhoneTypeString = devPhoneType.getText();
-            String hexPassword = DigestUtils.sha1Hex(devPasswordString);
+            String hexPassword = DigestUtils.sha1Hex(String.valueOf(devPassword.getPassword()));
 
             String urlString = createURL(devNameString, devEmailString, devPhoneNumberString, devPhoneTypeString, hexPassword);
 
