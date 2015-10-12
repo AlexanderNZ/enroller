@@ -194,37 +194,39 @@ public class Enroller extends JPanel {
             LOGGER.error("failed to encode user details into UTF-8");
             LOGGER.error(error);
         }
+        
+        Env env = new Env();
 
         StringBuilder sb = new StringBuilder();
         sb.append(env.FORMS_CONSTANT);
-        sb.append(env.FORM_ID);
-        sb.append(env.FORM_RESPONSE);
+        sb.append(env.getFormId());
+        sb.append(env.getFormResponse());
 
-        sb.append(env.FORM_COLUMN_1);
-        sb.append(env.STRJOINER);
+        sb.append(env.getFormColumn1());
+        sb.append(env.getStrJoiner());
         sb.append(createURLName);
-        sb.append(env.STRJOINER_2);
+        sb.append(env.getStrJoiner2());
 
-        sb.append(env.FORM_COLUMN_2);
-        sb.append(env.STRJOINER);
+        sb.append(env.getFormColumn2());
+        sb.append(env.getStrJoiner());
         sb.append(createURLemail);
-        sb.append(env.STRJOINER_2);
+        sb.append(env.getStrJoiner2());
 
-        sb.append(env.FORM_COLUMN_3);
-        sb.append(env.STRJOINER);
+        sb.append(env.getFormColumn3());
+        sb.append(env.getStrJoiner());
         sb.append(createURLphonenum);
-        sb.append(env.STRJOINER_2);
+        sb.append(env.getStrJoiner2());
 
-        sb.append(env.FORM_COLUMN_4);
-        sb.append(env.STRJOINER);
+        sb.append(env.getFormColumn4());
+        sb.append(env.getStrJoiner());
         sb.append(createURLphonetype);
-        sb.append(env.STRJOINER_2);
+        sb.append(env.getStrJoiner2());
 
-        sb.append(env.FORM_COLUMN_5);
-        sb.append(env.STRJOINER);
+        sb.append(env.getFormColumn5());
+        sb.append(env.getStrJoiner());
         sb.append(createURLpassword);
-        sb.append(env.STRJOINER_2);
-        sb.append(env.FORM_SUBMIT);
+        sb.append(env.getStrJoiner2());
+        sb.append(env.getFormSubmit());
 
         return sb.toString();
     }

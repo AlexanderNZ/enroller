@@ -6,4 +6,4 @@ gen
 target
 
 # Environment Variables
-/src/main/java/enroller/env.java
+/src/main/resources/env.properties
