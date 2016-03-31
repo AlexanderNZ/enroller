@@ -50,17 +50,5 @@
     </build>
 
     <properties>
-
-        <!-- sonar configuration -->
-        <sonar.jdbc.url>jdbc:postgresql://rdsdb-sonar-2.ccymtcqk3onb.ap-southeast-2.rds.amazonaws.com:5432/rdsdb
-        </sonar.jdbc.url>
-        <sonar.jdbc.driverClass>org.postgresql.Driver</sonar.jdbc.driverClass>
-        <sonar.jdbc.username>rdsdb</sonar.jdbc.username>
-        <sonar.jdbc.password>SdEuvHiKObHuaXOw</sonar.jdbc.password>
-        <sonar.host.url>http://sonar2.intranet.tdv.co.nz/</sonar.host.url>
-        <sonar.host.url>http://sonar2.intranet.tdv.co.nz/</sonar.host.url>
-        <sonar.projectKey>pmp</sonar.projectKey>
-        <sonar.projectName>PasswordManagerPro-Applet</sonar.projectName>
-
     </properties>
 </project>
